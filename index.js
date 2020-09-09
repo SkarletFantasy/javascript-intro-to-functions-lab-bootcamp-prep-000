@@ -22,7 +22,7 @@ lowerCase.toLowerCase() === lowercase;
 var uppercase = 'HELLO!';
 upperCase.toUpperCase() === uppercase;
 
-function sayHiToGrandma () {
+function sayHiToGrandma (string) {
   if (logWhisper) {
     return ("I can't hear you!")
   } 
