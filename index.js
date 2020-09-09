@@ -25,9 +25,11 @@ upperCase.toUpperCase() === uppercase;
 function sayHiToGrandma () {
   if (logWhisper) {
     return ("I can't hear you!")
-  } else if (logShout) {
+  } 
+  else if (logShout) {
     return ("YES INDEED!")
-  } else ('I love you, Grandma.') {
+  } 
+  else ('I love you, Grandma.'); {
     return ("I love you, too.")
   }
 }
